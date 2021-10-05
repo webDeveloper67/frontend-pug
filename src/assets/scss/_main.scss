@@ -1,0 +1,22 @@
+// .main {
+//   flex: 1 1 auto;
+// }
+
+.image-wrapper img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.title {
+  padding-left: 1.5rem;
+  color: $defaultColor;
+}
+
+.description {
+  padding: 1.5rem;
+  color: $defaultColor;
+  font-size: 2rem;
+  margin: 0;
+}

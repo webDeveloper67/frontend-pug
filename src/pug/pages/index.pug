@@ -1,0 +1,25 @@
+extends ../layout/main
+block variables
+  - var title = 'frontend challenge';
+  - var description = 'Description for Index Page';
+block content
+
+  section 
+    .container 
+      .image-wrapper
+        img(src="assets/images/svg/bg-min.jpeg" alt="background wallpaper")
+    
+  section 
+    .container 
+      h1.title Lorem Ipsum
+      p.description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      p.description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+  .container
+    svg#img
+      use(xlink:href="#logo")
+
+      
+
+
+block script
