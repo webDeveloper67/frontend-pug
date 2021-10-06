@@ -1,9 +1,9 @@
 let val = 0;
 
 rotateItem = (item) => {
-  item.style.transform = "rotate(" + val + "deg)";
-  item.style.webkitTransform = "rotate(" + val + "deg)";
-  item.style.mozTransform = "rotate(" + val + "deg)";
+  item.style.transform = `rotate(${val}deg)`;
+  item.style.webkitTransform = `rotate(${val}deg)`;
+  item.style.mozTransform = `rotate(${val}deg)`;
   val += 10;
 };
 

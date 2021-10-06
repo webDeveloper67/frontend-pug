@@ -135,6 +135,7 @@ module.exports = {
     {
       apply: (compiler) => {
         compiler.plugin("emit", (compilation, callback) => {
+          //Here’s the `compilation` object which represents a single build of assets:
           const { assets } = compilation;
           const chunkToRemove = Object.keys(assets)
             .filter((chunk) => chunk.match(/sprite.*\.js$/))
