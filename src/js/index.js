@@ -9,6 +9,8 @@ rotateItem = (item) => {
 
 setInterval(() => {
   setTimeout(() => {
-    rotateItem(document.getElementById("img"), 0);
+    rotateItem(document.getElementById("img"));
   }, 8000);
 }, 100);
+
+
